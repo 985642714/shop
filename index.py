@@ -1,8 +1,8 @@
 import time
+from selenium import webdriver
 
 abc = "123456"
 print(abc)
-from selenium import webdriver
 
 driver = webdriver.Chrome()
 driver.get('https://www.baidu.com')
